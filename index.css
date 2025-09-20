@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(175, 255, 251);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    background-color: blue;
+    text-align: center;
+    min-width: 250px;
+    min-height:75px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header > h4{
+    color: white;
+    font-style: italic;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#perfil-img{
+    max-width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 22px;
+}
+
+.container{
+    text-align: center;
+    align-items: center;
+}
+
+h1{
+    color: rgb(255, 196, 0);
+    width: 20pix;
+    height: 25pix;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+p{
+    color: rgb(255, 229, 85);
+    width: 20pix;
+    height: 10pix;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button{
+    display: inline-block;  
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 7px 8px;
+    background-color: rgb(94, 96, 211);
+    color: gold;
+    border-color: gold;
+    max-width: 250px;
+    width: 200px;
+    height: 70px;
+    border-radius: 5rem;
+    margin: 10px 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover{
+    padding: 8px 9px;
+    background-color: gold;
+    color: rgb(94, 96, 211);
+    border-color: gold;
+    border-radius: 5rem;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
